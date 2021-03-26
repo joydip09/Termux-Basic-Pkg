@@ -1,4 +1,5 @@
 mv Termux $PREFIX/bin/
+cd $PREFIX/bin
 chmod +x Termux
 cd
 Termux
