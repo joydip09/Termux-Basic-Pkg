@@ -58,6 +58,12 @@ apt install root-repo -y
 
 apt install x11-repo -y
 
+apt install tsu -y
+
+apt install dnsutils -y
+
+apt install nmap -y
+
 pip install requests
 
 pip install mechanize
