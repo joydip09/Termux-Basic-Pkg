@@ -16,6 +16,8 @@ apt install python2 -y
 
 apt install php -y
 
+apt install perl -y
+
 apt install ruby -y
 
 gem install lolcat
