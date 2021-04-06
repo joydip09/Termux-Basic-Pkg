@@ -18,6 +18,8 @@ apt install php -y
 
 apt install ruby -y
 
+gem install lolcat
+
 apt install golang -y
 
 apt install clang -y
