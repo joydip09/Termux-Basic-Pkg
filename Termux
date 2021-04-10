@@ -61,28 +61,43 @@ apt install tor -y
 echo "Installing proxychains-ng..." | lolcat -as 10
 apt install proxychains-ng -y
 
+echo "Installing w3m..." | lolcat -as 10
 apt install w3m -y
 
+echo "Installing figlet..." | lolcat -as 10
 apt install figlet -y
 
+echo "Installing toilet..." | lolcat -as 10
 apt install toilet -y
 
+echo "Installing cmatrix..." | lolcat -as 10
 apt install cmatrix -y
 
+echo "Installing libcaca..." | lolcat -as 10
 apt install libcaca -y
 
+echo "Installing sl..." | lolcat -as 10
 apt install sl -y
 
+echo "Installing jp2a..." | lolcat -as 10
+apt install jp2a
+
+echo "Installing unstable-repo..." | lolcat -as 10
 apt install unstable-repo -y
 
+echo "Installing root-repo..." | lolcat -as 10
 apt install root-repo -y
 
+echo "Installing x11-repo..." | lolcat -as 10
 apt install x11-repo -y
 
+echo "Installing tsu..." | lolcat -as 10
 apt install tsu -y
 
+echo "Installing dnsutils..." | lolcat -as 10
 apt install dnsutils -y
 
+echo "Installing nmap..." | lolcat -as 10
 apt install nmap -y
 
 apt install hping3 -y
