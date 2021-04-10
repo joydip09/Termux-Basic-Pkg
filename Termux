@@ -100,10 +100,13 @@ apt install dnsutils -y
 echo "Installing nmap..." | lolcat -as 10
 apt install nmap -y
 
+echo "Installing hping3..." | lolcat -as 10
 apt install hping3 -y
 
+echo "Installing requests..." | lolcat -as 10
 pip install requests
 
+echo "Installing mechanize..." | lolcat -as 10
 pip install mechanize
 
 clear
