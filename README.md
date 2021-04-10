@@ -7,6 +7,8 @@ $ git clone https://github.com/Hydra83/Termux-Basic-Packages
 $ cd Termux-Basic-Packages
 $ bash setup.sh
 
-If you want to use my tool next time just write Termux and ENTER.
+If you want to use my tool next time just write:
+$Termux
+And ENTER.
 
 Happy Hacking.
