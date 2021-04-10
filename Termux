@@ -4,44 +4,61 @@ figlet "Termux basic packages installation" | lolcat -as 10
 
 clear
 
+echo "Updating..." | lolcat -as 10
 apt update -y
 
+echo "Upgrading..." | lolcat -as 10
 apt upgrade -y 
 
+echo "Installing git..." | lolcat -as 10
 apt install git -y
 
+echo "Installing python..." | lolcat -as 10
 apt install python -y
 
+echo "Installing python2..." | lolcat -as 10
 apt install python2 -y
 
+echo "Installing php..." | lolcat -as 10
 apt install php -y
 
+echo "Installing perl..." | lolcat -as 10
 apt install perl -y
 
+echo "Installing ruby..." | lolcat -as 10
 apt install ruby -y
 
+echo "Installing lolcat..." | lolcat -as 10
 gem install lolcat
 
-apt install golang -y
-
+echo "Installing clang..." | lolcat -as 10
 apt install clang -y
 
+echo "Installing openssh..." | lolcat -as 10
 apt install openssh -y
 
+echo "Installing openssl..." | lolcat -as 10
 apt install openssl -y
 
+echo "Installing nano..." | lolcat -as 10
 apt install nano -y
 
+echo "Installing vim..." | lolcat -as 10
 apt install vim -y
 
+echo "Installing wget..." | lolcat -as 10
 apt install wget -y
 
+echo "Installing curl..." | lolcat -as 10
 apt install curl -y
 
+echo "Installing proot..." | lolcat -as 10
 apt install proot -y
 
+echo "Installing tor..." | lolcat -as 10
 apt install tor -y
 
+echo "Installing proxychains-ng..." | lolcat -as 10
 apt install proxychains-ng -y
 
 apt install w3m -y
@@ -68,6 +85,8 @@ apt install dnsutils -y
 
 apt install nmap -y
 
+apt install hping3 -y
+
 pip install requests
 
 pip install mechanize
@@ -79,9 +98,5 @@ figlet "Press allow in next popup" | lolcat -as 10
 termux-setup-storage
 
 clear
-
-figlet "Following packages are installed :" | lolcat -as 10 
-
-echo "update, upgrade, git, python, python2, python3, php, ruby, golang, clang, openssh, openssl, nano, vim, wget, curl, proot, tor, proxychains-ng, w3m, figlet, toilet, cmatrix, libcaca, sl, unstable-repo, root-repo, x11-repo, requests, mechanize and storage permission" | lolcat -as 10
 
 figlet "Thanks For Using" | lolcat -as 10
