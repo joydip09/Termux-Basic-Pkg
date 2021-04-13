@@ -103,6 +103,9 @@ apt install nmap -y
 echo "Installing hping3..." | lolcat -as 10
 apt install hping3 -y
 
+echo "Installing gping..." | lolcat -as 10
+apt install gping -y
+
 echo "Installing requests..." | lolcat -as 10
 pip install requests
 
