@@ -97,6 +97,9 @@ apt install tsu -y
 echo "Installing wireless-tools..." | lolcat -as 10
 apt install wireless-tools -y
 
+echo "Installing aircrack-ng..." | lolcat -as 10
+apt install aircrack-ng -y
+
 echo "Installing dnsutils..." | lolcat -as 10
 apt install dnsutils -y
 
