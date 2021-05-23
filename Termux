@@ -121,6 +121,9 @@ pip install requests
 echo "Installing mechanize..." | lolcat -as 10
 pip install mechanize
 
+echo "Installing shodan..." | lolcat -as 10
+pip install shodan
+
 clear
 
 figlet "Press allow in next popup" | lolcat -as 10 
