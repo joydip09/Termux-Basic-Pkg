@@ -115,6 +115,9 @@ apt install hping3 -y
 echo "Installing gping..." | lolcat -as 10
 apt install gping -y
 
+echo "Installing wireshark..." | lolcat -as 10
+apt install wireshark -y
+
 echo "Installing requests..." | lolcat -as 10
 pip install requests
 
