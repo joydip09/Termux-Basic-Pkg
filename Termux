@@ -118,6 +118,12 @@ apt install gping -y
 echo "Installing wireshark..." | lolcat -as 10
 apt install wireshark -y
 
+echo "Installing mlocate..." | lolcat -as 10
+apt install mlocate -y
+
+echo "Installing ettercap..." | lolcat -as 10
+apt install ettercap -y
+
 echo "Installing requests..." | lolcat -as 10
 pip install requests
 
