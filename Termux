@@ -121,6 +121,9 @@ apt install wireshark -y
 echo "Installing mlocate..." | lolcat -as 10
 apt install mlocate -y
 
+echo "Installing man..." | lolcat -as 10
+apt install man -y
+
 echo "Installing ettercap..." | lolcat -as 10
 apt install ettercap -y
 
