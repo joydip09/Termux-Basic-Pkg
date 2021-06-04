@@ -130,6 +130,12 @@ apt install ettercap -y
 echo "Installing openssl-tool..." | lolcat -as 10
 apt install openssl-tool -y
 
+echo "Installing fish..." | lolcat -as 10
+apt install fish -y
+
+echo "Installing crunch..." | lolcat -as 10
+apt install crunch -y
+
 echo "Installing requests..." | lolcat -as 10
 pip install requests
 
