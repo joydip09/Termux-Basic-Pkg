@@ -1,3 +1,5 @@
+#!bin/bash
+
 cd $PREFIX/bin/
 rm -rf Termux
 cd
