@@ -1,3 +1,5 @@
+#!bin/bash
+
 clear
 rm -rf $PREFIX/bin/Termux
 mv Termux $PREFIX/bin/
