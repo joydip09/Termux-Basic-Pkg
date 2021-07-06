@@ -27,12 +27,6 @@ apt install php -y
 echo "Installing perl..." | lolcat -as 10
 apt install perl -y
 
-echo "Installing ruby..." | lolcat -as 10
-apt install ruby -y
-
-echo "Installing lolcat..." | lolcat -as 10
-gem install lolcat
-
 echo "Installing clang..." | lolcat -as 10
 apt install clang -y
 
